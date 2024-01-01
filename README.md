@@ -1,11 +1,10 @@
 # Music_Player
-The application is a simple music player built using Tkinter and Pygame libraries in Python. It allows users to play MP3 files stored in a selected folder, providing basic playback controls
+This Python-based Music Player integrates Tkinter and Pygame for a user-friendly interface, empowering smooth MP3 playback. Featuring playlist management via a Circular Doubly Linked List, it offers easy track navigation. Its intuitive "Open Folder" functionality allows hassle-free addition of multiple songs, ensuring a seamless user experience.
 
 ## Features
-* Folder Selection: Users can choose a directory containing MP3 files using a folder selection dialog.
-* Play, Pause, Stop, Resume: Playback controls for managing music files.
-* GUI Interface: Intuitive graphical user interface to display and control the music player.
-* Song Display: Displays the name of the currently playing song.
+* Circular Doubly Linked List for smooth navigation through playlists.
+* Play, pause, stop, resume, skip to the next or previous track functionalities.
+* Easily add songs to the playlist by selecting a folder.
   
 ## Installation
   To use the application:
@@ -13,15 +12,16 @@ The application is a simple music player built using Tkinter and Pygame librarie
   * Install required dependencies:
         * Tkinter
         * Pygame
+
 ## Usage
 * Run the script music_player.py.
 * Click "Open Folder" to select a directory containing MP3 files.
 * Select a song from the displayed list.
-* Use the control buttons (Play, Pause, Stop, Resume) to manage playback.
+* Control playback using the play, pause, stop, next, and previous buttons.
 
 ## Code Structure
-* open_folder(): Opens a dialog to select a folder, populates a list of MP3 files from the folder.
-* play_song(): Loads and plays the selected song using Pygame mixer, updates the GUI with the song name.
+* CircularDoublyLinkedList: Manages the playlist using a circular doubly linked list.
+* Functions: Implemented functionalities like play_next_song(), play_previous_song(), open_folder(), etc.
 
 ## GUI Components:
 Buttons for playback control, a label to display the current song, and a frame to manage file selection and display.
