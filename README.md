@@ -24,7 +24,7 @@ This Python-based Music Player integrates Tkinter and Pygame for a user-friendly
 * Functions: Implemented functionalities like play_next_song(), play_previous_song(), open_folder(), etc.
 
 ## GUI Components:
-Buttons for playback control, a label to display the current song, and a frame to manage file selection and display.
+* Buttons for playback control, a label to display the current song, and a frame to manage file selection and display.
 
 ## Files Included
 * music_player.py: Main Python script.
