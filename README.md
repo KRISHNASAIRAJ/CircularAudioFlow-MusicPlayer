@@ -27,5 +27,5 @@ The application is a simple music player built using Tkinter and Pygame librarie
 Buttons for playback control, a label to display the current song, and a frame to manage file selection and display.
 
 ## Files Included
-    * music_player.py: Main Python script.
-    * Icons Pack
+* music_player.py: Main Python script.
+* Icons Pack
