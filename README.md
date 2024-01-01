@@ -23,7 +23,9 @@ The application is a simple music player built using Tkinter and Pygame librarie
 * open_folder(): Opens a dialog to select a folder, populates a list of MP3 files from the folder.
 * play_song(): Loads and plays the selected song using Pygame mixer, updates the GUI with the song name.
 
-## GUI Components: Buttons for playback control, a label to display the current song, and a frame to manage file selection and display.
-* Files Included
+## GUI Components:
+Buttons for playback control, a label to display the current song, and a frame to manage file selection and display.
+
+## Files Included
     * music_player.py: Main Python script.
     * Icons Pack
